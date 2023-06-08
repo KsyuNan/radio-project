@@ -1,4 +1,4 @@
-import { Card, Col, Row, Button, ToggleButton} from 'react-bootstrap'
+import { Card, Col, Row, Button} from 'react-bootstrap'
 import { ToggleIconButton } from '../../../views/components/toggle-icon-button'
 
 
@@ -16,7 +16,7 @@ export const StationCard = () => {
      </Card.Body>
      <Card.Footer>
         <Button>Go to page</Button>
-        <ToggleIconButton active onClick={onclick}/>
+          <ToggleIconButton /> 
      </Card.Footer>
     </Card>
   )
