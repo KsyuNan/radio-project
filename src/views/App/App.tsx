@@ -1,17 +1,16 @@
-import { Stations } from '../../modules/stations/stations/stations'
+import { Stations } from '../../modules/stations/stations'
 import './App.scss'
 import { Container } from 'react-bootstrap'
-import { store } from '../../store/store'
-import { Provider } from 'react-redux'
+import 'bootstrap/dist/css/bootstrap.css';
+import { Controls } from '../../components/controls/controls'
 
 function App() {
 
   return (
-    <Provider store={store}>
       <Container className='mt-3'>
-        <Stations/>
+        <Controls />
+        <Stations />
       </Container>
-    </Provider>
   )
 }
 

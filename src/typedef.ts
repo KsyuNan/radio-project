@@ -40,3 +40,8 @@ export type Countries = {
     name: string,
     stationcount: number
 }
+
+export type CountriesSelect = {
+  value: string,
+  label: string
+};

@@ -1,6 +1,6 @@
 import {Tab, Tabs} from "react-bootstrap";
-import { AllStations } from "../all-stations/all-stations";
-import { FavouriteStations } from '../favorite-station/favourite-stations'
+import { AllStations } from "./all-stations";
+import { FavouriteStations } from './favourite-stations'
 
 export const Stations = () => {
     return (
